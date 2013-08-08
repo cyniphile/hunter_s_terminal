@@ -1,4 +1,4 @@
-#%BANGPERL%
+#!/usr/bin/perl
 
 ##
 ## Cowsay 3.03
@@ -16,7 +16,7 @@ $version = "3.03";
 $progname = basename($0);
 $eyes = "oo";
 $tongue = "  ";
-$cowpath = $ENV{'COWPATH'} || '%PREFIX%/share/cows';
+$cowpath = $ENV{'COWPATH'} || '[A/share/cows';
 @message = ();
 $thoughts = "";
 
@@ -71,13 +71,16 @@ $bubble_len = scalar @balloon_lines;
 @the_cow = split /^/ , $the_cow;
 
 #inline bubble. Assumes the cow has lines of equal length, else the bubble gets out of alignment
+print $bubble_len;
+$test = "shjit	jj";
 
 for ($i = 0; $i < $bubble_len; $i++ ){
-	chomp($the_cow[$i]);
-	$the_cow[$i] =  $the_cow[$i]. $balloon_lines[$i] ;
+	print $the_cow[$i];
+	print $balloon_lines[$i];
+	$the_cow[$i] = "${the_cow[$i]}{$test}" ;
 }
 #print @balloon_lines;
-print @the_cow;
+print $the_cow;
 
 sub list_cowfiles {
     my $basedir;

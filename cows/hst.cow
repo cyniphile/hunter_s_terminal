@@ -1,0 +1,25 @@
+$the_cow =  <<EOC
+            dMMMMMMMMMMMMh         
+        dMMMMM=..       ?MMMb      
+     MMMI                 +Mb      
+   MMM~     !!            MMMMM    
+   MMM?                     MMM    
+   =MMM       ^^^           MMMM   
+    MMM8    o00OOOOo~~~~oOOOOOO0   
+   <=M====+0O0000000    OOOO000O0  
+   (mMMN   0O0000000  n O00000000  
+     MM     O00000O    n O000000   
+      MM.             nnn     M         ~    ~ ~ 
+       MM                    M       ~  ~ ~  ~
+        M           _____  M         ~  ~  ~ ~
+        MD M      ^  - -\\=\\         ~ ~  ~ ~     
+         M   M           \\=\\      ~~~ ~~ ~
+        YMM        .    M \\=\\   ~~~ ~~
+      YYY             yM   \\=\\ ~ ~~           
+     YYYYYY         YYYYY   **~        
+   YYYYYYYYYYYY   YYYYYYYY          
+YYYYYYYYYYYYYYYY     YYYYYYYYYY 
+   $Thoughts
+    $Thoughts 
+EOC
+        
