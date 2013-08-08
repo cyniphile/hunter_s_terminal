@@ -2,7 +2,7 @@
 Hunter S. Thompson Say
 
 A simple mod to cowsay with original HST ASCII art and inline display (so the thing will fit in your bash). 
-Just run cowsay with the "-f hst" flag. 
+Just run cowsay with the "-f hst" flag. The inline display breaks cowsay for other cows as yet, so be careful. 
 =========
 
 
