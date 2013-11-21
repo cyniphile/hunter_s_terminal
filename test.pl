@@ -7,3 +7,4 @@ foreach $line (@shit){
 	print $temp;
 }
 
+	

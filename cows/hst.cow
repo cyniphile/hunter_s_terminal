@@ -1,6 +1,6 @@
 $the_cow =  <<EOC
             dMMMMMMMMMMMMh         
-        dMMMMM=..       ?MMMb      
+        dMMMMM ..       ?MMMb      
      MMMI                 +Mb      
    MMM~     !!            MMMMM    
    MMM?                     MMM    
@@ -19,7 +19,5 @@ $the_cow =  <<EOC
      YYYYYY         YYYYY   **~        
    YYYYYYYYYYYY   YYYYYYYY          
 YYYYYYYYYYYYYYYY     YYYYYYYYYY 
-   $Thoughts
-    $Thoughts 
 EOC
         
