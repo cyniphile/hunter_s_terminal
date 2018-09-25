@@ -75,7 +75,8 @@ $bubble_len = scalar @balloon_lines;
 
 for ($i = 0; $i < $bubble_len; $i++ ){
 	chomp($the_cow[$i]);
-	$the_cow[$i] =  $the_cow[$i]. $balloon_lines[$i] ;
+	$the_cow[$i] =  substr($the_cow[$i], 0, 35) . $balloon_lines[$i] ;
+	#$the_cow[$i] =  $the_cow[$i] . $balloon_lines[$i] ;
 }
 #print @balloon_lines;
 print @the_cow;
@@ -126,34 +127,6 @@ sub construct_balloon {
     my @border;	## up-left, up-right, down-left, down-right, left, right
 	my $messlen = scalar @message;
 	my $prefix = "";
-	if ($messlen > 9){
-		$prefix = "                ";
-		if ($0 =~ /think/i) {
-			$thoughts = 'o';
-			@border = qw[ ( ) ( ) ( ) ];
-		} elsif (@message < 2) {
-			$thoughts = '\\';
-			@border = qw[ < > ];
-	    } else {
-			$thoughts = '\\';
-			if ($V and $V gt v5.6.0) {		# Thanks, perldelta.
-			    @border = qw[ / \\ \\ / | | ];
-			} else {
-			    @border = qw[ / \ \ / | | ];	
-			}
-	    }
-	    push(@balloon_lines, 
-		" " . $prefix . ("_" x $max2) . " \n" ,
-		sprintf($format, $prefix . $border[0], $message[0], $border[1]),
-		    map { sprintf($format, $prefix . $border[4], $_, $border[5]) } 
-				@message[1 .. 8],  
-		    map { sprintf($format, $border[4], $_, $border[5]) } 
-				@message[9 .. $#message-1],
-		    sprintf($format, $border[2], $message[$#message], $border[3]),
-			 " " . ("-" x $max2) . ""
-	    );
-
-	}else {
 	    if ($0 =~ /think/i) {
 		$thoughts = 'o';
 		@border = qw[ ( ) ( ) ( ) ];
@@ -178,7 +151,7 @@ sub construct_balloon {
 		    sprintf($format, $border[2], $message[$#message], $border[3])),
 	        (@message < 2 ? "\n" : " " . ("-" x $max2) . " \n")
 	    );
-	}
+	
 
 }
 
