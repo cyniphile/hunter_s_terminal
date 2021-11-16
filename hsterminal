@@ -75,7 +75,7 @@ $bubble_len = scalar @balloon_lines;
 
 for ($i = 0; $i < $bubble_len; $i++ ){
 	chomp($the_cow[$i]);
-	$the_cow[$i] =  substr($the_cow[$i], 0, 35) . $balloon_lines[$i] ;
+	$the_cow[$i] =  substr($the_cow[$i], 0, 39) . $balloon_lines[$i] ;
 	#$the_cow[$i] =  $the_cow[$i] . $balloon_lines[$i] ;
 }
 #print @balloon_lines;
