@@ -1,0 +1,23 @@
+$the_cow =  <<EOC
+          _________________               
+        ./mmmmmmmmmmmmmmmmm\\               
+       /~~~~~~~~~~~~~~~~~~~~~\\.             
+  ____|________________________|___          
+ /                                 \\      
+|    =MMM     ^^^              M    |        
+|     MMM8   oOOOO00o~~~~oOOOOO00   |     
+ \\  <=M====+OOO000OOO    OOOO000OO_/        
+    (mMMN   OOO0000OO  n OO000OOOO          
+      MM     0000OOO   Nn O000OOO         
+        MM.            7nn      M         ~    ~ ~ 
+        MM                    M       ~  ~ ~  ~
+          M           _____  M         ~  ~  ~ ~
+          MD M       \\----\\\\         ~ ~  ~ ~     
+          M      .         \\\\      ~~~ ~~ ~
+           M       ^ m __.M \\\\   ~~~ ~~
+        /YY             Y    **~ ~~           
+       Y\\YYYY          YYYY/            
+    YYYY\\YYYYYY       YYYY/Yy          
+  YYYYYYY\\YYYYYYY     YYY/YYYYYY        
+EOC
+        
