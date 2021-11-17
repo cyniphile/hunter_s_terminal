@@ -72,13 +72,16 @@ $bubble_len = scalar @balloon_lines;
 
 #inline bubble. Assumes the cow has lines of equal length, else the bubble gets out of alignment
 
-
+$max_cow_width = 39;
 for ($i = 0; $i < $bubble_len; $i++ ){
 	chomp($the_cow[$i]);
-	$the_cow[$i] =  substr($the_cow[$i], 0, 39) . $balloon_lines[$i] ;
-	#$the_cow[$i] =  $the_cow[$i] . $balloon_lines[$i] ;
+	if (length($the_cow[$i]) == 0) {
+		$the_cow[$i] =  " " x $max_cow_width . $balloon_lines[$i] ;
+	} else {
+		$the_cow[$i] =  substr($the_cow[$i], 0, $max_cow_width) . $balloon_lines[$i] ;
+	}
 }
-#print @balloon_lines;
+
 print @the_cow;
 
 sub list_cowfiles {
