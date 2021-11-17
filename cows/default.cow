@@ -1,23 +1,23 @@
 $the_cow =  <<EOC
-            _______________               
-          /mmmmmmmmmmmmmmmm\\               
-       /~~~~~~~~~~~~~~~~~~~~~\\              
-  ____|_______________________|_____          
- /                                  \\      
-|    =MMM     ^^^              M     |        
-|     MMM8   oOOOO00o~~~~oOOOOO00    |     
- \\  <=M====+OOO000OOO    OOOO000OO__/        
+          _________________               
+        ./~~~~~~~~~~~~~~~~~\\.              
+       /~~L~A~S~~~V~E~G~A~S~~\\.             
+  ____|________________________|___          
+ /                                 \\      
+|    =MMM     ^^^              M    |        
+|     MMM8   oOOOO00o~~~~oOOOOO00   |     
+ \\  <=M====+OOO000OOO    OOOO000OO_/        
     (mMMN   OOO0000OO  n OO000OOOO          
-      MM     0000OOO   nn O000OOO         
-        MM.             nn      M         ~    ~ ~ 
+      MM     0000OOO   Nn O000OOO         
+        MM.            7nn      M         ~    ~ ~ 
         MM                    M       ~  ~ ~  ~
           M           _____  M         ~  ~  ~ ~
-          MD M       ^ - -\\\\         ~ ~  ~ ~     
-          M   M            \\\\      ~~~ ~~ ~
-          YM         .    M \\\\   ~~~ ~~
-        YYY             yM   **~ ~~           
-      YYYYYY         YYYYY              
-    YYYYYYYYYYYY   YYYYYYYY            
-  YYYYYYYYYYYYYYYY     YYYYYYYYYY        
+          MD M       \\----\\\\         ~ ~  ~ ~     
+          M      .         \\\\      ~~~ ~~ ~
+           M       ^ m __.M \\\\   ~~~ ~~
+        /YY             Y    **~ ~~           
+       Y\\YYYY          YYYY/            
+    YYYY\\YYYYYY       YYYY/Yy          
+  YYYYYYY\\YYYYYYY     YYY/YYYYYY        
 EOC
         
