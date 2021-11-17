@@ -72,7 +72,7 @@ $bubble_len = scalar @balloon_lines;
 
 #inline bubble. Assumes the cow has lines of equal length, else the bubble gets out of alignment
 
-$max_cow_width = 39;
+$max_cow_width = 34;
 for ($i = 0; $i < $bubble_len; $i++ ){
 	chomp($the_cow[$i]);
 	if (length($the_cow[$i]) == 0) {
