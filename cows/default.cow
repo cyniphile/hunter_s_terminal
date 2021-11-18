@@ -9,16 +9,16 @@ $the_cow =  <<EOC
   mM)     %---------------------`    
  =MM====+OOO000OOO   OOOO000OO      
   (\@)    OOO0000OO . OO000OOOO      
-   |      0000OOO , \\ O000OOO       
-    \\.            '..'     .          ~    ~ ~
-     \\                    .       ~  ~ ~  ~
-      ',           ____  .         ~  ~  ~ ~
-      |  .        '---\\\\'        ~ ~  ~ ~
-      |    ' .        ,\\\\      ~~~ ~~ ~
-     /Yy       ' .___.  \\\\   ~~~ ~~
-    /YYYy           yYy\\ **~ ~~     
-  uUY\\YYYy          YYYY\\uu        
-uUUUUU\\YYYYy        YYYY/UUUuu     
-UUUUUUU\\YYYYY       YYY/UUUUUUUu     
+   |      0000OOO , \\ O000OOO          ~    ~ ~ 
+    \\.            '..'     .       ~ ~ ~  ~
+     \\                    .       ~  ~  ~ ~
+      ',           ____  .       ~ ~ ~  ~ ~
+      |  .        '---\\\\'       ~~~ ~~ ~ 
+      |    ' .        ,\\\\     ~~~ ~~  
+     /Yy       ' .___.  \\\\  ~~ ~   
+    /YYYy           yYy\\ **~ 
+.uUUU\\YYYy          YYYY\\uu.        
+UUUUUU\\YYYYy        YYYY/UUUUuu.    
+UUUUUUU\\YYYYY       YYY/UUUUUUUUu     
 EOC
         
