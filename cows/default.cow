@@ -17,7 +17,7 @@ $the_cow =  <<EOC
       |    ' .        ,\\\\     ~~~ ~~  
      /Yy       ' .___.  \\\\  ~~ ~   
     /YYYy           yYy\\ **~ 
-.uUUU\\YYYy          YYYY\\uu.        
+.uUUU\\YYYy          YYYY\\u.        
 UUUUUU\\YYYYy        YYYY/UUUUuu.    
 UUUUUUU\\YYYYY       YYY/UUUUUUUUu     
 EOC
