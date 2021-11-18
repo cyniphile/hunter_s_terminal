@@ -6,4 +6,4 @@ Install by running `./install.sh`.
 
 Works great with [`fortune`](https://en.wikipedia.org/wiki/Fortune_(Unix)), like so:
 
-![](2021-11-16-22-09-26.png)
+![](2021-11-18-13-27-00.png)
